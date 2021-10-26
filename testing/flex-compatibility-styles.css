@@ -1,0 +1,66 @@
+/* 
+Colors: 
+#141A5E - dark blue
+#3606DF - bright blue
+#00B4FF - sky blue
+
+#00E9FF - cyan
+#93F6FF - light cyan
+
+#41DBB9 - green cyan
+#87EDD7 - light green cyan
+
+#E000F9 - bright magenta
+#F5A0FB - light magenta 1
+#FCC9FF - light magenta 2
+#FCE0FF - light magenta 3
+
+#461174 - purple
+#5F0998 - brighter purple
+
+#7A63EC - blue-lavender
+#9076FF - lighter blue-lavender
+
+#FF9472 - orange
+*/
+body{
+	margin: 0;
+}
+
+.page-wrap{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.nav{
+	-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-flex: 1;         /* OLD - Firefox 19- */
+	width: calc(100vw/11*2);  /* For old syntax, otherwise collapses. */
+	-webkit-flex: 1;          /* Chrome */
+	-ms-flex: 1;              /* IE 10 */
+	flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+/*	height: 100%;*/
+	background-color: #F5A0FB;
+}
+
+.logo{
+	width: 100%;
+	padding-bottom: 3em;
+}
+
+.main-content{
+	width: calc(100vw/11*6)
+}
+
+.sideBar{
+	-webkit-box-flex: 1;		/* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-flex: 1;			/* OLD - Firefox 19- */
+	width: calc(100vw/11*3);	/* For old syntax, otherwise collapses. */
+	-webkit-flex: 1;			/* Chrome */
+	-ms-flex: 1;				/* IE 10 */
+	flex: 1;					/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	background-color: #FCC9FF;
+}
