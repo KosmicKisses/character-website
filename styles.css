@@ -48,23 +48,22 @@ img.header{
 }
 
 #navList{
-	list-style: none;
-	padding: 0;
+	all: unset;
+	display: block;
 }
 
-.navMenu {
-    background-color: #00E9FF;
-    padding: .5em 0;
-    width: 100%;
+#navList a{
+		text-decoration: none;
 }
 
-.navLink{
-	margin-left: 1.5em;
+#navList li{
 	color: #3606DF;
-	text-decoration: none;
+
+    background-color: #00E9FF;
+    padding: .5em 0 .5em 1.5em;
 }
 
-.navLink:hover {
+#navList li:hover {
 	color: #141A5E; 
 	text-decoration:none; 
 	cursor:pointer;  
