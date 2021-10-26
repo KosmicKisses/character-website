@@ -1,0 +1,79 @@
+/* 
+Colors: 
+#141A5E - dark blue
+#3606DF - bright blue
+#00B4FF - sky blue
+
+#00E9FF - cyan
+#93F6FF - light cyan
+
+#41DBB9 - green cyan
+#87EDD7 - light green cyan
+
+#E000F9 - bright magenta
+#F5A0FB - light magenta 1
+#FCC9FF - light magenta 2
+#FCE0FF - light magenta 3
+
+#461174 - purple
+#5F0998 - brighter purple
+
+#7A63EC - blue-lavender
+#9076FF - lighter blue-lavender
+
+#FF9472 - orange
+*/
+body{
+	margin: 0;
+}
+
+img.header{
+	margin: 0;
+	height: 100px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.page-wrap{
+	display: -webkit-flex;
+	display: flex;
+	height: 100%;
+}
+
+.nav{
+	-webkit-flex: 3 1;
+	flex: 3 1;
+	height: 100%;
+	background-color: #F5A0FB;
+}
+
+.navMenu {
+    background-color: #00E9FF;
+}
+
+#Ray {
+    padding: .5em 45.25%;
+}
+
+#logo{
+	width: calc(100vw/11*2);
+	padding-bottom: 3em;
+}
+
+.center{
+	-webkit-flex: 12 2;
+	flex: 12 2;  
+	height: 100%;
+}
+
+.main-content{
+
+}
+
+.sideBar{
+	-ms-flex: 5 1;
+	flex: 5 1;
+	background-color: #FCC9FF;
+	height: 100%;
+
+}
