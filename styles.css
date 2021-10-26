@@ -49,14 +49,25 @@ img.header{
 
 #navList{
 	list-style: none;
+	padding: 0;
 }
 
 .navMenu {
     background-color: #00E9FF;
+    padding: .5em 0;
+    width: 100%;
 }
 
-#Ray {
-    padding: .5em 45.25%;
+.navLink{
+	margin-left: 1.5em;
+	color: #3606DF;
+	text-decoration: none;
+}
+
+.navLink:hover {
+	color: #141A5E; 
+	text-decoration:none; 
+	cursor:pointer;  
 }
 
 #logo{
