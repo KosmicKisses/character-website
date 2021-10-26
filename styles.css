@@ -47,6 +47,10 @@ img.header{
 	background-color: #F5A0FB;
 }
 
+#navList{
+	list-style: none;
+}
+
 .navMenu {
     background-color: #00E9FF;
 }
