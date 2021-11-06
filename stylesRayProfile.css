@@ -1,0 +1,152 @@
+body {
+  color: #14171A;
+  font-family: sans-serif;
+}
+
+a:hover {
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  grid-template-rows: repeat(25, 1fr);
+  padding: 2.5rem;
+  background-image: url(background.jpg); 
+  background-attachment: fixed;
+}
+.element {
+  border-radius: 1em;
+  background-color: white;
+  padding: 1em;
+
+}
+.fas {
+  color: #7F152A
+}
+
+
+
+/*Profile Grid*/
+.one {
+  grid-column: 1 / 5;
+  grid-row: 1 / 6;
+  background-image: url(rayImage1.png);
+  background-size: cover; 
+  background-position:top center;
+}
+.two {
+  grid-column: 5 / -1;
+  grid-row: 1 / 6;
+}
+.three {
+  grid-column: 1 / -1;
+  grid-row: 6;
+}
+.four {
+  grid-column: 1 / 7;
+  grid-row: 7 / 9;
+}
+.five {
+  grid-column: 7 / -1;
+  grid-row: 7 / 9;
+}
+.six {
+  grid-column: 1 / 4;
+  grid-row: 9 / 11;
+}
+.seven {
+  grid-column: 4 / 7;
+  grid-row: 9 / 11;
+}
+.eight {
+  grid-column: 7 / 10;
+  grid-row: 9 / 11;
+}
+.nine {
+  grid-column: 10 / -1;
+  grid-row: 9 / 11;
+}
+.ten {
+  grid-column: 1 / -1;
+  grid-row: 11 / 17;
+}
+.eleven {
+  grid-column: 1 / 8;
+  grid-row: 17 / 22;
+}
+.twelve {
+  grid-column: 8 / -1;
+  grid-row: 17 / 22;
+}
+.thirteen {
+  grid-column: 1 / -1;
+  grid-row: 22 / -1;
+}
+
+/*Element 2 grid*/
+
+#about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: .5rem;
+  grid-template-rows: repeat(7, 1fr);
+}
+
+#uno {
+  grid-column: 1;
+  grid-row: 1;
+}
+#dos {
+  grid-column: 2;
+  grid-row: 1;
+}
+#tres {
+  grid-column: 1;
+  grid-row: 2;
+}
+#quatro {
+  grid-column: 2;
+  grid-row: 2;
+}
+#cinco {
+  grid-column: 1;
+  grid-row: 3;
+}
+#seis {
+  grid-column: 2;
+  grid-row: 3;
+}
+#siete {
+  grid-column: 1;
+  grid-row: 4;
+}
+#ocho {
+  grid-column: 2;
+  grid-row: 4;
+}
+#nueve {
+  grid-column: 1;
+  grid-row: 5;
+}
+#diez {
+  grid-column: 2;
+  grid-row: 5;
+}
+#once {
+  grid-column: 1;
+  grid-row: 6;
+}
+#doce {
+  grid-column: 2;
+  grid-row: 6;
+}
+#trece {
+  grid-column: 1;
+  grid-row: 7;
+}
+#catorce {
+  grid-column: 2;
+  grid-row: 7;
+}
