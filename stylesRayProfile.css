@@ -13,7 +13,7 @@ a:hover {
   gap: 1rem;
   grid-template-rows: repeat(25, 1fr);
   padding: 2.5rem;
-  background-image: url(background.jpg); 
+  background-image: url(images/background.jpg); 
   background-attachment: fixed;
 }
 .element {
@@ -32,7 +32,7 @@ a:hover {
 .one {
   grid-column: 1 / 5;
   grid-row: 1 / 6;
-  background-image: url(rayImage1.png);
+  background-image: url(images/rayImage1.png);
   background-size: cover; 
   background-position:top center;
 }
