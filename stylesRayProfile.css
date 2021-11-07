@@ -27,7 +27,14 @@ a:hover {
 .fas {
   color: #7F152A
 }
-
+.list-unstyled {
+  all: unset;
+  display: block;
+  list-style-type: none;
+}
+.list-unstyled li {
+  margin-bottom: 1rem;
+}
 
 
 /*Profile Grid*/
@@ -49,14 +56,17 @@ a:hover {
 .four {
   grid-column: 1 / 7;
   grid-row: 7 / 9;
+  padding: 1rem 1rem 0 1rem;
 }
 .five {
   grid-column: 7 / -1;
   grid-row: 7 / 9;
+  padding: 1rem 1rem 0 1rem;
 }
 .six {
   grid-column: 1 / 4;
   grid-row: 9 / 11;
+  background-image: url(carChaseNewYork.gif);
 }
 .seven {
   grid-column: 4 / 7;
