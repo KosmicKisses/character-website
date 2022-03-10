@@ -64,13 +64,15 @@ body{
 .page-wrap{
 	display: -webkit-flex;
 	display: flex;
-	height: 100%;
+	height: auto;
+	min-height: 100vh;
 }
 
 .nav{
 	-webkit-flex: 3 1;
 	flex: 3 1;
-	height: 100%;
+	height: auto;
+	min-height: 100vh;
 	background-color: #F5A0FB;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -105,7 +107,8 @@ body{
 .center{
 	-webkit-flex: 12 2;
 	flex: 12 2;  
-	height: 100%;
+	height: auto;
+	min-height: 100vh;
 }
 
 .main-content{
@@ -116,6 +119,7 @@ body{
 	-ms-flex: 5 1;
 	flex: 5 1;
 	background-color: #FCC9FF;
-	height: 100%;
+	height: auto;
+	min-height: 100vh;
 
 }
