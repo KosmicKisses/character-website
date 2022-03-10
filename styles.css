@@ -69,10 +69,12 @@ body{
 }
 
 .nav{
+	width: 15vw;
 	height: auto;
 	min-height: 100vh;
 	background-color: #F5A0FB;
 	font-family: 'Montserrat', sans-serif;
+	display: block;
 }
 
 #navList{
@@ -95,6 +97,16 @@ body{
 	color: #141A5E; 
 	text-decoration:none; 
 	cursor:pointer;  
+}
+
+#navList li ul {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#navList li.collapsible:hover ul {
+	height: auto;
 }
 
 #logo{
@@ -120,4 +132,12 @@ body{
 	height: auto;
 	min-height: 100vh;
 
+}
+
+.sideBox {
+	background-color: white;
+	margin: 2.5rem 1rem;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	position: relative;
 }
