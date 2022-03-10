@@ -36,6 +36,7 @@ Colors:
 
 body{
 	margin: 0;
+	font-family: sans-serif;
 }
 
 #title{
@@ -44,6 +45,7 @@ body{
 	margin: 1em;
 	float: left;
 	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 #mainTitle{
@@ -70,6 +72,7 @@ body{
 	flex: 3 1;
 	height: 100%;
 	background-color: #F5A0FB;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #navList{
@@ -78,7 +81,7 @@ body{
 }
 
 #navList a{
-		text-decoration: none;
+	text-decoration: none;
 }
 
 #navList li{
