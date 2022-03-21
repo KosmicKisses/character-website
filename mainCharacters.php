@@ -16,7 +16,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8 Box" style="text-align:right;">
-					<p class="name">Ray • Demi-girl • Early 20's - Mid 20's</p>
+					<a href="https://out.of.amospia.com/ray_main-profile.php"><p class="name">Ray • Demi-girl • Early 20's - Mid 20's</p>
 					<p>Brash, confident, adventurous. Loves to flirt with pretty woman</p>
 				</div>
 				<div class="col-md-3 m-2">
