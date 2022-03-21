@@ -20,7 +20,7 @@
             </div>
             <div class="pl-md-1 mb-3" id="dos">
               <i class="fas fa-comment-dots"></i>
-              Silver Fox
+              Silver Eyed Fox
             </div>
             <div class="pr-md-1 mb-3" id="tres">
               <i class="fas fa-birthday-cake"></i>
@@ -28,7 +28,7 @@
             </div>
             <div class="pl-md-1 mb-3" id="quatro">
               <i class="fas fa-calendar-alt"></i>
-              Year 3156, Early in the Year
+              August 22
             </div>
             <div class="pr-md-1 mb-3" id="cinco">
               <i class="fas fa-venus-mars"></i>
@@ -44,11 +44,11 @@
             </div>
             <div class="l-md-1 mb-3" id="ocho">
               <i class="fas fa-question"></i>
-              Human, Hispanican
+              Human
             </div>
             <div class="pr-md-1 mb-3" id="nueve">
               <i class="fas fa-book"></i>
-              Pilot, Bounty Hunter/Mercenary
+              Streamer
             </div>
             <div class="pl-md-1 mb-3" id="diez">
               <i class="fas fa-balance-scale"></i>
@@ -59,6 +59,14 @@
               <a href="https://youtu.be/1k8craCGpgs" target="_BLANK" style="text-decoration: none;color: #14171A;">
                 <i class="fas fa-play" style="margin-left: 1.5em;"></i>
               </a>
+              <p class="m-0 ml-2">
+                  <a href="https://www.youtube.com/watch?v=1k8craCGpgs" target="_blank"><i class="fa-solid fa-music"></i></a> 
+                  <a href="https://www.youtube.com/watch?v=5Nrv5teMc9Y" target="_blank"><i class="fa-solid fa-music-note"></i></a> 
+                  <a href="https://www.youtube.com/watch?v=Xn676-fLq7I" target="_blank"><i class="fa-solid fa-music"></i></a> 
+                  <a href="https://www.youtube.com/watch?v=btPJPFnesV4" target="_blank"><i class="fa-solid fa-music-note"></i></a>
+                  <a href="https://www.youtube.com/watch?v=ERoS6y5zE0Y" target="_blank"><i class="fa-solid fa-music"></i></a>
+                  <a href="https://www.youtube.com/watch?v=7Xf-Lesrkuc" target="_blank"><i class="fa-solid fa-music-note"></i></a> 
+                </p>
             </div>
             <div class="pl-md-1 mb-3" id="doce">
               <i class="fas fa-code"></i>
@@ -88,7 +96,7 @@
           <ul class="list-unstyled">
             <li><i class="fas fa-check"></i> Storms</li>
             <li><i class="fas fa-check"></i> People</li>
-            <li><i class="fas fa-check"></i> Her ship</li>
+            <li><i class="fas fa-check"></i> Learning</li>
             <li><i class="fas fa-check"></i> GIRLS</li>
           </ul>
         </div>
