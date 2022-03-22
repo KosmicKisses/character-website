@@ -1,6 +1,6 @@
 <?php require 'pageStart.php'; ?>
   <title>Profile Template</title>
-  <link rel="stylesheet" href="stylesRayProfile.css">
+  <link rel="stylesheet" href="stylesProfile.css">
   <div class="center">
     <div class="main-content">
       <div class="wrapper">
@@ -56,9 +56,10 @@
             </div>
             <div class="pr-md-1 mb-3" id="once">
               <i class="fas fa-volume-up"></i>
-              <a href="https://youtu.be/1k8craCGpgs" target="_BLANK" style="text-decoration: none;color: #14171A;">
-                <i class="fas fa-play" style="margin-left: 1.5em;"></i>
-              </a>
+              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
+              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
+              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
+              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
             </div>
             <div class="pr-md-1 mb-3" id="trece">
               <i class="fas fa-star"></i>
@@ -118,7 +119,6 @@
           Ten
         </div>
         <div class="eleven element">
-          Songs: Stronger (What Doesn’t Kill You) – Kelly Clarkson, Don’t Stop Believing – Journey, Save the World – Swedish House Mafia, We are the Champions – Queen, 15. Just Like Fire – P!nk
         </div>
         <div class="twelve element">
           Twelve

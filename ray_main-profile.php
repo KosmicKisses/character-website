@@ -1,10 +1,11 @@
 <?php require 'pageStart.php'; ?>
   <title>Ray Main Profile</title>
-  <link rel="stylesheet" href="stylesRayProfile.css">
+  <link rel="stylesheet" href="stylesProfile.css">
   <div class="center">
     <div class="main-content">
       <div class="wrapper">
         <div class="one element">
+          <img src="images/rayImage1.png">
         </div>
         <div class="two element">
 
@@ -56,17 +57,12 @@
             </div>
             <div class="pr-md-1 mb-3" id="once">
               <i class="fas fa-volume-up"></i>
-              <a href="https://youtu.be/1k8craCGpgs" target="_BLANK" style="text-decoration: none;color: #14171A;">
-                <i class="fas fa-play" style="margin-left: 1.5em;"></i>
-              </a>
-              <p class="m-0 ml-2">
-                  <a href="https://www.youtube.com/watch?v=1k8craCGpgs" target="_blank"><i class="fa-solid fa-music"></i></a> 
-                  <a href="https://www.youtube.com/watch?v=5Nrv5teMc9Y" target="_blank"><i class="fa-solid fa-music-note"></i></a> 
-                  <a href="https://www.youtube.com/watch?v=Xn676-fLq7I" target="_blank"><i class="fa-solid fa-music"></i></a> 
-                  <a href="https://www.youtube.com/watch?v=btPJPFnesV4" target="_blank"><i class="fa-solid fa-music-note"></i></a>
-                  <a href="https://www.youtube.com/watch?v=ERoS6y5zE0Y" target="_blank"><i class="fa-solid fa-music"></i></a>
-                  <a href="https://www.youtube.com/watch?v=7Xf-Lesrkuc" target="_blank"><i class="fa-solid fa-music-note"></i></a> 
-                </p>
+              <a href="https://www.youtube.com/watch?v=1k8craCGpgs" target="_blank"><i class="fas fa-music"></i></a> 
+              <a href="https://www.youtube.com/watch?v=5Nrv5teMc9Y" target="_blank"><i class="fas fa-music"></i></a> 
+              <a href="https://www.youtube.com/watch?v=Xn676-fLq7I" target="_blank"><i class="fas fa-music"></i></a> 
+              <a href="https://www.youtube.com/watch?v=btPJPFnesV4" target="_blank"><i class="fas fa-music"></i></a>
+              <a href="https://www.youtube.com/watch?v=ERoS6y5zE0Y" target="_blank"><i class="fas fa-music"></i></a>
+              <a href="https://www.youtube.com/watch?v=7Xf-Lesrkuc" target="_blank"><i class="fas fa-music"></i></a> 
             </div>
             <div class="pl-md-1 mb-3" id="doce">
               <i class="fas fa-code"></i>
