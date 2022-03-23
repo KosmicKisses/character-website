@@ -1,5 +1,5 @@
 <?php require 'pageStart.php'; ?>
-  <title>Home - Out of Amospia</title>
+  <title>Main Characters</title>
   <link rel="stylesheet" href="indexStyles.css">
 	<div class="center" style="background-color: #9076FF;">
 		<div class="main-content">
@@ -21,7 +21,7 @@
 				</div>
 				<div class="col-md-3 m-2">
 					<div class="indexImg">
-						<a href="https://out.of.amospia.com/ray_main-profile.php"><img src="images/rayImage1.png" style="position: absolute;width: 100%;"></a>
+						<a href="ray_main-profile.php"><img src="images/rayImage1.png" style="position: absolute;width: 100%;"></a>
 					</div>
 				</div>
 			</div>
@@ -52,19 +52,19 @@
 	<div class="sideBar">
 		<div class="sideBox">
 			<p class="sideTitle"><a href="https://en.wikipedia.org/wiki/One_Piece">One Piece</a></p>
-			<p class="sideSubtitle">Ray</p>
+			<p class="sideSubtitle"><a href="./">Ray</a></p>
 			<p><i>Shipped with Nico Robin</i></p>
-			<p class="sideSubtitle">Kosi</p>
+			<p class="sideSubtitle"><a href="./">Kosi</a></p>
 			<p><i>Shipped with Brooke</i></p>
-			<p class="sideSubtitle">Ashton</p>
+			<p class="sideSubtitle"><a href="./">Ashton</a></p>
 			<p><i>Shipped with Trafalger Law</i></p>
-			<p class="sideSubtitle">Zina</p>
+			<p class="sideSubtitle"><a href="./">Zina</a></p>
 		</div>
 		<div class="sideBox">
 			<p class="sideTitle"><a href="https://www.pokemon.com/us/">Pokemon</a></p>
-			<p class="sideSubtitle">Ray</p>
+			<p class="sideSubtitle"><a href="./">Ray</a></p>
 			<p><i>Shipped with Elesa, Skyla, and Malva</i></p>
-			<p class="sideSubtitle">Kosi</p>
+			<p class="sideSubtitle"><a href="./">Kosi</a></p>
 			<p><i>Shipped with Nessa and Sonia</i></p>
 		</div>
 	</div>
