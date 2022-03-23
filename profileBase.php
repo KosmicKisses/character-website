@@ -56,10 +56,12 @@
             </div>
             <div class="pr-md-1 mb-3" id="once">
               <i class="fas fa-volume-up"></i>
-              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
-              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
-              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
-              <a href="https://out.of.amospia.com/" target="_blank"><i class="fas fa-music"></i></a> 
+              <a href="./" target="_blank"><i class="fas fa-headphones music1"></i></a> 
+              <a href="./" target="_blank"><i class="fas fa-play music"></i></a> 
+              <a href="./" target="_blank"><i class="fas fa-headphones music1"></i></a> 
+              <a href="./" target="_blank"><i class="fas fa-play music"></i></a>
+              <a href="./" target="_blank"><i class="fas fa-headphones music1"></i></a>
+              <a href="https://www.youtube.com/watch?v=7Xf-Lesrkuc" target="_blank"><i class="fas fa-play music"></i></a> 
             </div>
             <div class="pr-md-1 mb-3" id="trece">
               <i class="fas fa-star"></i>

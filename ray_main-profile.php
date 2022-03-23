@@ -57,12 +57,12 @@
             </div>
             <div class="pr-md-1 mb-3" id="once">
               <i class="fas fa-volume-up"></i>
-              <a href="https://www.youtube.com/watch?v=1k8craCGpgs" target="_blank"><i class="fas fa-headphones"></i><</a> 
-              <a href="https://www.youtube.com/watch?v=5Nrv5teMc9Y" target="_blank"><i class="fas fa-play"></i></a> 
-              <a href="https://www.youtube.com/watch?v=Xn676-fLq7I" target="_blank"><i class="fas fa-headphones"></i></a> 
-              <a href="https://www.youtube.com/watch?v=btPJPFnesV4" target="_blank"><i class="fas fa-play"></i></a>
-              <a href="https://www.youtube.com/watch?v=ERoS6y5zE0Y" target="_blank"><i class="fas fa-headphones"></i><</a>
-              <a href="https://www.youtube.com/watch?v=7Xf-Lesrkuc" target="_blank"><i class="fas fa-play"></i>/a> 
+              <a href="https://www.youtube.com/watch?v=1k8craCGpgs" target="_blank"><i class="fas fa-headphones music1"></i></a> 
+              <a href="https://www.youtube.com/watch?v=5Nrv5teMc9Y" target="_blank"><i class="fas fa-play music"></i></a> 
+              <a href="https://www.youtube.com/watch?v=Xn676-fLq7I" target="_blank"><i class="fas fa-headphones music1"></i></a> 
+              <a href="https://www.youtube.com/watch?v=btPJPFnesV4" target="_blank"><i class="fas fa-play music"></i></a>
+              <a href="https://www.youtube.com/watch?v=ERoS6y5zE0Y" target="_blank"><i class="fas fa-headphones music1"></i></a>
+              <a href="https://www.youtube.com/watch?v=7Xf-Lesrkuc" target="_blank"><i class="fas fa-play music"></i></a> 
             </div>
               <div class="pr-md-1 mb-3" id="trece">
               <i class="fas fa-star"></i>

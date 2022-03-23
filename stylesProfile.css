@@ -161,6 +161,12 @@ a:hover {
   grid-column: 1;
   grid-row: 6;
 }
+.music {
+  color: #51006F;
+}
+.music1 {
+  color: #F800EA;
+}
 #doce {
   grid-column: 2;
   grid-row: 6;
