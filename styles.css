@@ -141,3 +141,10 @@ body{
 	padding: 0.5rem;
 	position: relative;
 }
+.sideTitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25rem;
+}
+.sideSubtitle{
+	margin-bottom: 0;
+}
