@@ -1,4 +1,4 @@
-<?php require 'pageStart.php'; ?>
+<?php require 'ashPageStart.php'; ?>
   <title>Ash's Social Feed</title>
 		<div class="center">
 			<div class="main-content">
@@ -145,4 +145,4 @@
 		<div class="sideBar">
 			<p>Sidebar</p>
 		</div>
-<?php require 'pageEnd.php'; ?>
+<?php require '../pageEnd.php'; ?>

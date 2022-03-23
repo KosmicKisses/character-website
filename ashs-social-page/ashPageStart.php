@@ -6,7 +6,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/d9611115af.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <div id="header">
@@ -14,23 +14,23 @@
       <p id="mainTitle">Out of Amospia</p>
       <p id="subtitle"><i>Characters and Stories of KosmicKisses</i></p>
     </div>
-  <img src="distantPlanet.png">
+  <img src="../distantPlanet.png">
   </div>
   <div class="page-wrap">
     <div class="nav">
-      <img id="logo" src="vaporwave.png">
+      <img id="logo" src="../vaporwave.png">
       <ul id="navList">
-        <a href="./"><li>Home</li></a>
+        <a href="../"><li>Home</li></a>
         <li class="collapsible">
-          <a href="mainCharacters.php"><label>Main Characters</label></a>
+          <a href="../mainCharacters.php"><label>Main Characters</label></a>
           <ul>
-            <a href="ray_main-profile.php"><label>Ray - Main</label></a>
+            <a href="../ray_main-profile.php"><label>Ray - Main</label></a>
           </ul>
         </li>
         <li class="collapsible">
-          <a href="Lockettes.php"><label>Lockettes</label></a>
+          <a href="../Lockettes.php"><label>Lockettes</label></a>
           <ul>
-            <a href="ashs-social-page/feed.php"><label>Ash's Social Page</label></a>
+            <a href="feed.php"><label>Ash's Social Page</label></a>
           </ul>
         </li>
         <li></li>
