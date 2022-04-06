@@ -22,6 +22,13 @@ Colors:
 #9076FF - lighter blue-lavender
 
 #FF9472 - orange
+
+Fonts -
+https://fonts.google.com/specimen/Josefin+Sans
+https://fonts.google.com/specimen/Montserrat
+
+Icons -
+https://fontawesome.com/v5/search?s=solid%2Cbrands
 */
 #header{
 	position: relative;
@@ -147,4 +154,7 @@ body{
 }
 .sideSubtitle {
 	margin-bottom: 0;
+}
+.container {
+	margin-top:80px
 }
