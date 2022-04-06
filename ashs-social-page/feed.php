@@ -19,6 +19,7 @@
 		- Enjoy my layouts? Support me on Ko-Fi at https://ko-fi.com/sylueon, I'd greatly appreciate it!
 		
  -->
+<?php require 'helloworldNavBar.php'; ?>
 <div class="container">
   <!---<div class="row no-gutters justify-content-center">
     <div class="col-sm-10 bg-success p-3" id="ONE">
