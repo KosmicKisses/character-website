@@ -14,9 +14,9 @@
 		</div>
 		<div class="sideBox">
 			<p>Main Character</p>
-			<p><a href="https://out.of.amospia.com">Ray</a></p>
-			<p><a href="https://out.of.amospia.com">Kosi</a></p>
-			<p><a href="https://out.of.amospia.com">Amber</a></p>
+			<p><a href="ray_main-profile">Ray</a></p>
+			<p><a href="./">Kosi</a></p>
+			<p><a href="./">Amber</a></p>
 		</div>
 	</div>
 <?php require 'pageEnd.php'; ?>
