@@ -10,6 +10,7 @@ body {
   grid-column-gap: 10px;
   height: 100vh;
   margin: 0;
+  font-family: Lato, sans-serif;
   }  
 header, footer, article, nav, div {
   padding: 1.2em;
@@ -59,3 +60,122 @@ header, footer, article, nav, div {
     grid-template-columns: 1fr;
  }
 }
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+
+/* Nav Bar */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+#navShell {
+  display: flex;
+  height: 100%;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  background: #514129;
+}
+
+#navShell ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: none;
+}
+
+#navShell li {
+    padding: 6px 0;
+}
+
+#navShell a {
+	position: relative;
+	display: block;
+	padding: 4px 0;
+	font-family: Lato, sans-serif;
+	color: #ecf0f1;
+  font-size: 2.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+#navShell a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #ba6145;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+#navShell a:hover {
+	color: #95a5a6;
+}
+#navShell a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+/* Body */
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  }
+.box {
+  color: white;
+  font-size: 2vh;
+  padding: 10px;
+  background: gold;
+  margin: 0;
+  text-align: center;
+  }
+.box:nth-child(1) {
+  grid-row: span 8;
+  }
+.box:nth-child(2) {
+  grid-row: span 4;
+  }
+.box:nth-child(3) {
+  grid-row: span 5;
+  }
+.box:nth-child(4) {
+  grid-row: span 7;
+  }
+.box:nth-child(5) {
+  grid-row: span 4;
+  }
+.box:nth-child(6) {
+  grid-row: span 4;
+  }
+.box:nth-child(7) {
+  grid-row: span 4;
+  }
+.box:nth-child(8) {
+  grid-row: span 4;
+  }
+.box:nth-child(9) {
+  grid-row: span 8;
+  }
