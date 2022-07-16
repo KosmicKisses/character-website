@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 #mainArticle {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,8 +9,8 @@
 .image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  width: 75%;
+  grid-template-rows: repeat(2, 1fr);
+  width: 95%;
   grid-gap: 0.5rem;
   background: transparent;
 
