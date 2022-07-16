@@ -1,0 +1,14 @@
+.story {
+	width: 100%;
+	background: #fbefdf;
+	margin-top: 10px;
+	padding: 10px 0;
+}
+.story p {
+	margin: 0;
+	padding: 0 10px;
+	font-size: 2vh;
+}
+.story p b {
+	font-size: 1.5rem;
+}
