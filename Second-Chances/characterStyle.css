@@ -12,3 +12,98 @@
 .story p b {
 	font-size: 1.5rem;
 }
+.image {
+	overflow: hidden;
+	height: 100%;
+}
+img {
+	object-fit: cover;
+}
+
+
+/* Other (2)*/
+
+.container {
+ height: 75rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ gap: 0px 0px;
+ grid-auto-flow: row;
+ grid-template-areas:
+  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
+  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
+  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
+  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
+  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Six Six Six Six"
+  "Image-1 Image-1 Image-1 Image-1 Four Four Four Four Six Six Six Six"
+  "Image-1 Image-1 Image-1 Image-1 Four Four Four Four Six Six Six Six"
+  "Image-1 Image-1 Image-1 Image-1 Four Four Four Four Six Six Six Six"
+  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
+  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
+  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
+  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
+  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
+  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
+  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
+  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
+  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
+  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve"
+  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve"
+  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve"
+  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve";
+}
+
+.Image-1 {
+ grid-area: Image-1;
+}
+
+.Two {
+ grid-area: Two;
+}
+
+.BasicInfo {
+ grid-area: BasicInfo;
+}
+
+.Four {
+ grid-area: Four;
+}
+
+.Five {
+ grid-area: Five;
+}
+
+.Six {
+ grid-area: Six;
+}
+
+.Seven {
+ grid-area: Seven;
+}
+
+.Eight {
+ grid-area: Eight;
+}
+
+.Nine {
+ grid-area: Nine;
+}
+
+.Ten {
+ grid-area: Ten;
+}
+
+.Eleven {
+ grid-area: Eleven;
+}
+
+.Twelve {
+ grid-area: Twelve;
+}
+
+.container div {
+ background-color: green;
+ margin: 0.25rem;
+ padding: 0.5rem;
+}
