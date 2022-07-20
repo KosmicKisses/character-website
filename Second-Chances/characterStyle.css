@@ -1,109 +1,101 @@
-.story {
-	width: 100%;
+.container {  
+	height: 75rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: column;
+	grid-template-areas:
+		"Image Image Image Image BasicInfo BasicInfo BasicInfo BasicInfo Likes Likes Likes Likes"
+		"Image Image Image Image BasicInfo BasicInfo BasicInfo BasicInfo Likes Likes Likes Likes"
+		"Image Image Image Image BasicInfo BasicInfo BasicInfo BasicInfo Likes Likes Likes Likes"
+		"Image Image Image Image BasicInfo BasicInfo BasicInfo BasicInfo Likes Likes Likes Likes"
+		"Image Image Image Image BasicInfo BasicInfo BasicInfo BasicInfo Dislikes Dislikes Dislikes Dislikes"
+		"Image Image Image Image Personality Personality Personality Personality Dislikes Dislikes Dislikes Dislikes"
+		"Image Image Image Image Personality Personality Personality Personality Dislikes Dislikes Dislikes Dislikes"
+		"Image Image Image Image Personality Personality Personality Personality Dislikes Dislikes Dislikes Dislikes"
+		"Appearance Appearance Appearance Appearance Personality Personality Personality Personality Trivia Trivia Trivia Trivia"
+		"Appearance Appearance Appearance Appearance Personality Personality Personality Personality Trivia Trivia Trivia Trivia"
+		"Appearance Appearance Appearance Appearance Personality Personality Personality Personality Trivia Trivia Trivia Trivia"
+		"Appearance Appearance Appearance Appearance Personality Personality Personality Personality Trivia Trivia Trivia Trivia"
+		"Color-1 Color-1 Color-2 Color-2 Color-3 Color-3 Color-4 Color-4 Color-5 Color-5 Color-6 Color-6"
+		"Story Story Story Story Story Story Story Story Story Story Story Story"
+		"Story Story Story Story Story Story Story Story Story Story Story Story"
+		"Story Story Story Story Story Story Story Story Story Story Story Story"
+		"Story Story Story Story Story Story Story Story Story Story Story Story"
+		"Story Story Story Story Story Story Story Story Story Story Story Story"
+		"Moodboard-1 Moodboard-1 Moodboard-1 Moodboard-2 Moodboard-2 Moodboard-2 Moddboard-3 Moddboard-3 Moddboard-3 Moodboard-4 Moodboard-4 Moodboard-4"
+		"Moodboard-1 Moodboard-1 Moodboard-1 Moodboard-2 Moodboard-2 Moodboard-2 Moddboard-3 Moddboard-3 Moddboard-3 Moodboard-4 Moodboard-4 Moodboard-4"
+		"Moodboard-1 Moodboard-1 Moodboard-1 Moodboard-2 Moodboard-2 Moodboard-2 Moddboard-3 Moddboard-3 Moddboard-3 Moodboard-4 Moodboard-4 Moodboard-4"
+		"Moodboard-1 Moodboard-1 Moodboard-1 Moodboard-2 Moodboard-2 Moodboard-2 Moddboard-3 Moddboard-3 Moddboard-3 Moodboard-4 Moodboard-4 Moodboard-4";
+}
+
+.Image { grid-area: Image; }
+
+
+img {
+	max-height: 100%;
+  	width: auto;
+}
+
+.Appearance { grid-area: Appearance; }
+
+.BasicInfo { grid-area: BasicInfo; }
+
+.Personality { grid-area: Personality; }
+
+.Likes { grid-area: Likes; }
+
+.Dislikes { grid-area: Dislikes; }
+
+.Trivia { grid-area: Trivia; }
+
+.Story { 
+	grid-area: Story;
 	background: #fbefdf;
 	margin-top: 10px;
 	padding: 10px 0;
 }
+
 .story p {
 	margin: 0;
 	padding: 0 10px;
 	font-size: 2vh;
 }
+
 .story p b {
 	font-size: 1.5rem;
 }
-.image {
-	overflow: hidden;
-	height: 100%;
-}
-img {
-	object-fit: cover;
-}
 
+.Moodboard-1 { grid-area: Moodboard-1; }
 
-/* Other (2)*/
+.Moodboard-2 { grid-area: Moodboard-2; }
 
-.container {
- height: 75rem;
- display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
- gap: 0px 0px;
- grid-auto-flow: row;
- grid-template-areas:
-  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
-  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
-  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
-  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Five Five Five Five"
-  "Image-1 Image-1 Image-1 Image-1 BasicInfo BasicInfo BasicInfo BasicInfo Six Six Six Six"
-  "Image-1 Image-1 Image-1 Image-1 Four Four Four Four Six Six Six Six"
-  "Image-1 Image-1 Image-1 Image-1 Four Four Four Four Six Six Six Six"
-  "Image-1 Image-1 Image-1 Image-1 Four Four Four Four Six Six Six Six"
-  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
-  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
-  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
-  "Two Two Two Two Four Four Four Four Seven Seven Seven Seven"
-  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
-  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
-  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
-  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
-  "Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight Eight"
-  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve"
-  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve"
-  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve"
-  "Nine Nine Nine Ten Ten Ten Eleven Eleven Eleven Twelve Twelve Twelve";
-}
+.Moddboard-3 { grid-area: Moddboard-3; }
 
-.Image-1 {
- grid-area: Image-1;
-}
+.Moodboard-4 { grid-area: Moodboard-4; }
 
-.Two {
- grid-area: Two;
-}
+.Color-1 { grid-area: Color-1; }
 
-.BasicInfo {
- grid-area: BasicInfo;
-}
+.Color-2 { grid-area: Color-2; }
 
-.Four {
- grid-area: Four;
-}
+.Color-3 { grid-area: Color-3; }
 
-.Five {
- grid-area: Five;
-}
+.Color-4 { grid-area: Color-4; }
 
-.Six {
- grid-area: Six;
-}
+.Color-5 { grid-area: Color-5; }
 
-.Seven {
- grid-area: Seven;
-}
+.Color-6 { grid-area: Color-6; }
 
-.Eight {
- grid-area: Eight;
-}
-
-.Nine {
- grid-area: Nine;
-}
-
-.Ten {
- grid-area: Ten;
-}
-
-.Eleven {
- grid-area: Eleven;
-}
-
-.Twelve {
- grid-area: Twelve;
-}
-
-.container div {
+.box {
  background-color: green;
  margin: 0.25rem;
  padding: 0.5rem;
 }
+.picture {
+	overflow: hidden;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
