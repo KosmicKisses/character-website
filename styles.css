@@ -23,6 +23,10 @@ Colors:
 
 #FF9472 - orange
 
+Social Media
+#5bc0de - main color
+#bde5f1 - hover main color
+
 Fonts -
 https://fonts.google.com/specimen/Josefin+Sans
 https://fonts.google.com/specimen/Montserrat
@@ -101,7 +105,7 @@ body{
 }
 
 #navList li:hover {
-	color: #141A5E; 
+	color: #bde5f1; 
 	text-decoration:none; 
 	cursor:pointer;  
 }
